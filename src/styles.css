@@ -37,7 +37,7 @@ ul li {
 
 .main-information {
     font-family: 'Roboto', sans-serif;
-    padding: 20px 0 0 35px;
+    padding: 20px 0 0 65px;
 }
 
 .main-information h1 {
@@ -91,6 +91,7 @@ ul li {
 
 .gallery-wrap {
     background: #E3E3E3;
+    padding: 90px 100px;
 }
 
 .row img {
