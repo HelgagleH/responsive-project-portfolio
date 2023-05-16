@@ -1,0 +1,38 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.portfolio-wrap {
+    display: flex;
+}
+
+.main-information {
+    text-align: center;
+    background: #E3E3E3;
+}
+
+.portfolio {
+    background: #E3E3E3;
+}
+
+.portfolio-photo {
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.portfolio-photo-right {
+    background-color: #444444;
+    width: 50%;
+}
+
+.gallery-wrap {
+    background: #E3E3E3;
+}
+
+.row img {
+    max-width: 300px;
+}
+
+footer {
+    background: #2B3036;
+}
