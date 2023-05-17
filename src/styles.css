@@ -1,4 +1,4 @@
-/* font-family: 'Montserrat', sans-serif;
+/* font-family: ;
 font-family: 'Roboto', sans-serif; */
 
 * {
@@ -67,6 +67,11 @@ ul li {
     border-radius: 15px;
 }
 
+button a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 .main-information a {
     text-decoration: none;
     font-size: 13px;
@@ -91,13 +96,56 @@ ul li {
 
 .gallery-wrap {
     background: #E3E3E3;
-    padding: 90px 100px;
+    padding: 90px 100px 30px 100px;
+}
+
+.gallery-wrap img {
+    display: block;
+    margin: 0 auto;
 }
 
 .row img {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 footer {
     background: #2B3036;
+    padding: 10px 0;
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+    margin-bottom: 30px;
+}
+
+.row-footer {
+    align-items: center;
+}
+
+.contact-links {
+    text-align: end;
+    padding-right: 125px;
+    align-content: center;
+}
+
+.contact-links a {
+    margin-left: 65px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFF;
+    font-size: 15px;
+}
+
+.footer-rights {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFF;
+    text-align: end;
+}
+
+p {
+    margin-bottom: 0;
 }
