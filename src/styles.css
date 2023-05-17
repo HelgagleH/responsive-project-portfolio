@@ -106,6 +106,7 @@ button a {
 
 .row img {
     max-width: 400px;
+    margin: 0;
 }
 
 footer {
@@ -118,6 +119,12 @@ footer {
 .row-three,
 .row-four {
     margin-bottom: 30px;
+    margin-left: 0;
+}
+
+div.col-4 img {
+    margin: 0;
+    padding: 0;
 }
 
 .row-footer {
