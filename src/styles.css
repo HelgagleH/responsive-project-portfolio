@@ -7,6 +7,23 @@ font-family: 'Roboto', sans-serif; */
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul li {
+    padding-right: 30px;
+}
+
+footer {
+    background: #2B3036;
+    padding: 10px 0;
+}
+
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
@@ -22,9 +39,6 @@ font-family: 'Roboto', sans-serif; */
     padding-right: 25px;
 }
 
-ul li {
-    padding-right: 30px;
-}
 
 .portfolio-wrap {
     display: flex;
@@ -109,10 +123,6 @@ button a {
     margin: 0;
 }
 
-footer {
-    background: #2B3036;
-    padding: 10px 0;
-}
 
 .row-one,
 .row-two,
@@ -154,8 +164,50 @@ div.col-4 img {
     text-align: end;
 }
 
-p {
-    margin-bottom: 0;
+.main-information.about-section h1 {
+    margin: 0;
+    line-height: 80px;
+}
+
+.main-information.about-section h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e43066;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.main-information.about-section p {
+    font-size: 15px;
+}
+
+.about-section-contact-links {
+    margin: 40px 10px;
+}
+
+.about-section-contact-links a {
+    color: #2B3036;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.nikon {
+    border: 1px solid #444444;
+    background: #FFFF;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.nikon-picture {
+    width: 80px;
+}
+
+.nikon-name {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-information.btn-about {
+    margin-top: 0px;
 }
 
 @media (max-width: 576px) {
