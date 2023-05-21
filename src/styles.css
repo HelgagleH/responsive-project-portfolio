@@ -160,6 +160,71 @@ p {
 
 @media (max-width: 576px) {
     .main-information {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .main-information h1 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .main-information h2 {
+        font-size: 47px;
+    }
+
+    .portfolio img {
+        display: none;
+    }
+
+    .div.portfolio {
+        display: none;
+    }
+
+    .portfolio-photo-right {
+        display: none;
+        background-color: #E3E3E3;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three,
+    .row-four,
+    .row-five {
+        display: block;
+        margin: 0 auto;
+        padding: 0 18px;
+    }
+
+    div.col-4 img {
+        margin-bottom: 20px;
+    }
+
+    .col-4 img {
+        max-width: 300px;
+    }
+
+    .gallery-wrap {
+        padding: 35px 10px 25px 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact-links {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-links a {
+        margin-right: 14px;
+        margin-left: 0;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main-information {
         padding: 0 70px;
         text-align: center;
     }
@@ -171,6 +236,10 @@ p {
 
     .main-information h2 {
         font-size: 50px;
+    }
+
+    .portfolio-wrap {
+        display: block;
     }
 
     .portfolio img {
@@ -189,7 +258,6 @@ p {
     .row-five {
         display: block;
         margin: 0;
-
     }
 
     div.col-4 img {
@@ -198,6 +266,70 @@ p {
 
     .col-4 img {
         max-width: 300px;
+    }
+
+    .gallery-wrap {
+        padding: 35px 80px 25px 90px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact-links {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-links a {
+        margin-right: 14px;
+        margin-left: 0;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .main-information {
+        padding: 25px 70px;
+        text-align: center;
+    }
+
+    .main-information h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .main-information h2 {
+        font-size: 50px;
+    }
+
+    .portfolio-wrap {
+        display: block;
+    }
+
+    .portfolio img {
+        display: none;
+    }
+
+    .portfolio-photo-right {
+        display: block;
+        background-color: #E3E3E3;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three,
+    .row-four,
+    .row-five {
+
+        margin: 0;
+    }
+
+    div.col-4 img {
+        margin-bottom: 20px;
+    }
+
+    .col-4 img {
+        max-width: 250px;
     }
 
     .gallery-wrap {
