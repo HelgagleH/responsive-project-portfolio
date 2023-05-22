@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-about">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Olha Dashchynska</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav about">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
@@ -47,14 +47,15 @@
         </div>
     </nav>
 
-    <div class="portfolio-wrap">
-        <div class="main-information about-section">
+    <div class="row portfolio-wrap about-page">
+        <div class="col-sm-7 main-information about-section">
             <h2>ABOUT ME</h2>
             <h1>Olha Dashchynska</h1>
             <p>
                 Hello there! My name is Olha. I'm from Kyiv, Ukraine. I am a novice web developer. I love
                 photography and on this site I would like to share with you some photos I took in Spain in 2017.
             </p>
+
             <div class="about-section-contact-links">
                 <a href="https://www.facebook.com/">
                     <i class="fa-brands fa-facebook"></i>
@@ -68,6 +69,7 @@
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
+
             <h2>MY CAMERA</h2>
             <div class="nikon">
                 <img src="/images/nikon.png" alt="Picture of camera" class="nikon-picture">
@@ -79,47 +81,16 @@
                 <a href="/contact.html">CONTACT ME</a>
             </button>
         </div>
-        <div class="portfolio">
+
+        <div class="col-sm-5 portfolio about-section-photo">
             <img src="/images/my_photo.jpg" alt="Photo of Olha" class="portfolio-photo">
         </div>
-
-        <div class="portfolio-photo-right">
-        </div>
     </div>
 
-    <div class="gallery-wrap">
-        <div class="row row-one">
-            <div class="col-4">
-                <img src="images/photo_1.jpg" alt="Photo of Barcelona">
-            </div>
-            <div class="col-4">
-                <img src="images/photo_2.jpg" alt="Photo of Barcelona">
-            </div>
-            <div class="col-4">
-                <img src="images/photo_3.jpg" alt="Photo of Barcelona">
-            </div>
-        </div>
-    </div>
-
-    <footer>
+    <footer class="footer-about">
         <div class="container">
-            <div class="row row-footer">
-                <div class="col-8 contact-links">
-
-                    <a href="https://www.facebook.com/">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/">
-                        <i class="fa-brands fa-instagram"> </i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-
-                </div>
-                <div class="col-4 footer-rights">
+            <div class="row row-footer-about">
+                <div class="col-sm footer-rights-about">
                     <p>© 2023 All rights reserved.</p>
                 </div>
             </div>

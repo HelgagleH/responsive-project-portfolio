@@ -1,6 +1,8 @@
 /* font-family: ;
 font-family: 'Roboto', sans-serif; */
 
+/* #e3f2fd */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,8 +22,12 @@ ul li {
 }
 
 footer {
-    background: #2B3036;
+    background: #98cff6;
     padding: 10px 0;
+}
+
+.navbar {
+    background: #98cff6;
 }
 
 .navbar-brand {
@@ -36,22 +42,18 @@ footer {
     font-weight: 500;
     display: flex;
     justify-content: end;
-    padding-right: 25px;
-}
-
-
-.portfolio-wrap {
-    display: flex;
+    padding-right: 20px;
 }
 
 .main-information {
     text-align: center;
-    background: #E3E3E3;
+    background: #e3f2fd;
 }
 
 .main-information {
     font-family: 'Roboto', sans-serif;
     padding: 20px 0 0 65px;
+    max-width: 100%;
 }
 
 .main-information h1 {
@@ -73,7 +75,7 @@ footer {
 }
 
 .main-information button {
-    margin-top: 35px;
+    margin-top: 45px;
     padding: 15px 18px;
     border: 1px solid #2B3036;
     cursor: pointer;
@@ -93,24 +95,33 @@ button a {
     color: #E3E3E3;
 }
 
+.navbar-about,
+.footer-about {
+    background: #adc5a6;
+}
+
+.main-information.about-section,
+.portfolio.about-section-photo {
+    background: #e5ede3;
+}
+
+.portfolio-wrap {
+    margin: 0;
+}
+
 .portfolio {
-    background: #E3E3E3;
+    background: #e3f2fd;
+    text-align: center;
 }
 
 .portfolio-photo {
-    display: block;
-    max-width: 555px;
-    margin: 0 auto;
-}
-
-.portfolio-photo-right {
-    background-color: #444444;
-    width: 100%;
+    max-width: 100%;
+    padding-top: 70px;
 }
 
 .gallery-wrap {
-    background: #E3E3E3;
-    padding: 90px 100px 30px 100px;
+    background: #e3f2fd;
+    padding: 100px 100px 30px 100px;
 }
 
 .gallery-wrap img {
@@ -138,7 +149,8 @@ div.col-4 img {
     padding: 0;
 }
 
-.row-footer {
+.row-footer,
+.row-footer-about {
     align-items: center;
 }
 
@@ -152,15 +164,16 @@ div.col-4 img {
     margin-left: 65px;
     text-decoration: none;
     cursor: pointer;
-    color: #FFFF;
+    color: #2B3036;
     font-size: 15px;
 }
 
-.footer-rights {
+.footer-rights,
+.footer-rights-about {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 500;
-    color: #FFFF;
+    color: #2B3036;
     text-align: end;
 }
 
@@ -172,13 +185,13 @@ div.col-4 img {
 .main-information.about-section h2 {
     font-size: 15px;
     font-weight: 700;
-    color: #e43066;
+    color: #DC084F;
     line-height: 30px;
     margin-top: 30px;
 }
 
 .main-information.about-section p {
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .about-section-contact-links {
@@ -194,8 +207,9 @@ div.col-4 img {
 .nikon {
     border: 1px solid #444444;
     background: #FFFF;
-    max-width: 50%;
+    max-width: 38%;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .nikon-picture {
@@ -206,11 +220,89 @@ div.col-4 img {
     font-family: 'Roboto', sans-serif;
 }
 
-.main-information.btn-about {
-    margin-top: 0px;
+button.btn-about {
+    margin-bottom: 30px;
 }
 
+
 @media (max-width: 576px) {
+    .main-information {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .main-information h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .main-information h2 {
+        font-size: 47px;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three,
+    .row-four,
+    .row-five {
+        display: block;
+        margin: 0 auto;
+        padding: 0 18px;
+    }
+
+    .row-one img,
+    .row-two img,
+    .row-three img,
+    .row-four img,
+    .row-five img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gallery-wrap {
+        padding: 35px 10px 25px 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact-links {
+        padding-bottom: 5px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .contact-links a {
+        margin-right: 14px;
+        margin-left: 0;
+    }
+
+    .footer-rights,
+    .footer-rights-about {
+        text-align: center;
+    }
+
+    .portfolio-photo {
+        width: 400px;
+        padding: 0;
+    }
+
+    .about-section-photo {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 576px) {
     .main-information {
         padding: 0 20px;
         text-align: center;
@@ -231,11 +323,6 @@ div.col-4 img {
 
     .div.portfolio {
         display: none;
-    }
-
-    .portfolio-photo-right {
-        display: none;
-        background-color: #E3E3E3;
     }
 
     .row-one,
@@ -288,10 +375,6 @@ div.col-4 img {
 
     .main-information h2 {
         font-size: 50px;
-    }
-
-    .portfolio-wrap {
-        display: block;
     }
 
     .portfolio img {
@@ -400,4 +483,4 @@ div.col-4 img {
         margin-left: 0;
     }
 
-}
+} */
