@@ -282,12 +282,16 @@ button.btn-about {
     }
 
     .portfolio-photo {
-        width: 400px;
+        width: 300px;
         padding: 0;
     }
 
     .about-section-photo {
         padding-bottom: 30px;
+    }
+
+    .nikon {
+        max-width: 100%;
     }
 }
 
