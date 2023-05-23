@@ -236,7 +236,7 @@ button.btn-about {
     max-width: 100%;
 }
 
-.main-information.about-section a {
+.main-information.about-section.links a {
     cursor: pointer;
     color: #2B3036;
     font-size: 15px;
