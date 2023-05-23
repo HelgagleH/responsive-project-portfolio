@@ -232,10 +232,6 @@ button.btn-about {
     margin-bottom: 30px;
 }
 
-.main {
-    max-width: 100%;
-}
-
 .main-information.about-section.links a {
     cursor: pointer;
     color: #2B3036;
@@ -243,6 +239,10 @@ button.btn-about {
 }
 
 @media (max-width: 576px) {
+    .navbar-brand {
+        display: none;
+    }
+
     .main-information {
         padding: 10px 20px;
         text-align: center;
