@@ -155,7 +155,7 @@ div.col-4 img {
 }
 
 .contact-links {
-    text-align: end;
+    text-align: center;
     padding-right: 125px;
     align-content: center;
 }
@@ -166,6 +166,14 @@ div.col-4 img {
     cursor: pointer;
     color: #2B3036;
     font-size: 15px;
+}
+
+.footer-link a {
+    color: #2B3036;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .footer-rights,
