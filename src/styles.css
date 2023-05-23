@@ -232,6 +232,15 @@ button.btn-about {
     margin-bottom: 30px;
 }
 
+.main {
+    max-width: 100%;
+}
+
+.main-information.about-section a {
+    cursor: pointer;
+    color: #2B3036;
+    font-size: 15px;
+}
 
 @media (max-width: 576px) {
     .main-information {
