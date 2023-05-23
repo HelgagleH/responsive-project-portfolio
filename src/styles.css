@@ -238,6 +238,10 @@ button.btn-about {
     font-size: 15px;
 }
 
+.main-information.about-section.links {
+    min-height: calc(100vh - 100px);
+}
+
 @media (max-width: 576px) {
     .navbar-brand {
         display: none;
