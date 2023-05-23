@@ -301,6 +301,10 @@ button.btn-about {
     .nikon {
         max-width: 100%;
     }
+
+    .footer-link {
+        text-align: center;
+    }
 }
 
 
