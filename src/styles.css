@@ -121,6 +121,16 @@ button a {
     justify-content: center;
 }
 
+a.gallery-link {
+    color: #60656b;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+a.gallery-link:hover {
+    transition: all 50s ease-in;
+}
+
 .portfolio-wrap {
     margin: 0;
 }
