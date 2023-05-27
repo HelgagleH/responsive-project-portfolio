@@ -74,8 +74,9 @@ footer {
 
 .main-information h2 {
     font-size: 75px;
-    margin-top: 25px;
+    margin-top: 30px;
     font-weight: 700;
+
 }
 
 .main-information p {
@@ -336,15 +337,21 @@ a.gallery-link:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .about-section-photo {
         display: none;
     }
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .about-section-photo-2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1065px) and (max-width: 1498px) {
+    .photo_15 img {
         display: none;
     }
 }
